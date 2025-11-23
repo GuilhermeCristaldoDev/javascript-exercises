@@ -1,6 +1,10 @@
-const reverseString = function() {
+const reverseString = function(string) {
+    let reversedString = string.split("").reverse().join("");
 
+    return reversedString;
 };
+
+console.log(reverseString("hello"))
 
 // Do not edit below this line
 module.exports = reverseString;
